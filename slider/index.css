@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+main {
+    background-color: #d5d5d5;
+    height: 50vh;
+    width: 900px;
+    position: relative;
+    overflow: hidden;
+
+    article {
+        transition: ease all 1200ms;
+        left: 0;
+        position: absolute;
+        background-color: aliceblue;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
