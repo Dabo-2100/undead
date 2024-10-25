@@ -1,0 +1,23 @@
+#HomePage {
+  #HeroSection {
+    height: 100vh;
+    .swiper {
+      position: relative;
+    }
+    .swiper-button-next {
+      background-color: black;
+      padding: 1rem;
+      border-radius: 50%;
+      &::after {
+        content: "\1F3B6";
+      }
+    }
+    .swiper-pagination-bullet {
+    }
+    .swiper-pagination-bullet-active {
+      height: 1rem;
+      width: 3rem;
+      background-color: rgb(255, 166, 0);
+    }
+  }
+}

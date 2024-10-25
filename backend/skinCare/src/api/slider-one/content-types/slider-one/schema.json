@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "slider_ones",
+  "info": {
+    "singularName": "slider-one",
+    "pluralName": "slider-ones",
+    "displayName": "Slider One"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slide_name": {
+      "type": "string"
+    },
+    "slide_img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
